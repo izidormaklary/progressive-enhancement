@@ -1,0 +1,57 @@
+body {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    background: linear-gradient(20deg, rgb(248, 255, 232), rgb(247, 247, 247), rgb(248, 201, 195));
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(105, 71, 6);
+    word-spacing: 3px;
+}
+a {
+  font-size: medium;
+  color: rgb(146, 42, 11);
+  font-display: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  
+  border-radius: 2px;
+  transition: 0.3s;
+}
+a:link {
+    background-color: rgba(255, 248, 220, 0.877);
+    color: rgb(146, 42, 11);
+    font-weight: bold;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    background-color:  rgb(146, 42, 11);
+    color: rgba(255, 248, 220, 0.877);
+    letter-spacing: 2px;
+}
+q {display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 3px dashed indianred ;
+    font-size: 160%;
+    background-color: rgba(128, 128, 128, 0.247);
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+q.villager {
+    border-left: 3px dashed indianred ;
+}
+q.farmer {
+    border-left: 3px dashed rgb(216, 156, 27) ;
+}
+header:first-child {
+    background-color: yellow ;
+}
