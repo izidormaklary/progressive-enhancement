@@ -87,17 +87,7 @@ img {
     
 
 }
-.notification{
-    background:#FFFFDD;
-    padding:.5rem 1rem;
-    border:3px solid #DDDDCC;
-    width:250px;
-    font-weight:bold;
-    color: #333300;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
+
 header{
     max-width: 90%;
      width: 600px;
