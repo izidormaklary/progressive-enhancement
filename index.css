@@ -53,11 +53,11 @@ q.villager {
 q.farmer {
     border-left: 3px dashed rgb(216, 156, 27) ;
 }
-header:first-child {
+header > h1 {
     background-color: yellow ;
 }
 em {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 em.good {
     color: green;
@@ -76,9 +76,10 @@ section > p:first-of-type {
     font-weight: bold;
 }
 img {
-    width: 50%;
+   width: 500px;
     float: right;
     margin: 30px;
+    max-width: 90%;
 
 }
 .notification{
